@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional</title>
+</head>
+<style>
+    body {
+        background-color: aqua;
+    }
+</style>
+<body>
+    <h1>Gerador de Multas</h1>
+
+    Velocidade: <input type="number" name="txt" id="txt"> km/h <br><input type="submit" value="calcular" onclick="enviar()">
+
+    <div name="texto" id="texto"><br><br>Aguardando entrada com o valor da multa</div> 
+</body>
+<script>
+    function enviar(){
+        var veloc = document.getElementById('txt')
+        var velocidade = Number(veloc.value)
+        var msg = document.getElementById('texto')
+        if (velocidade > 80){
+            
+
+          msg.innerHTML = `Sua Velocidade foi de ${velocidade} Km/h, você foi multado` 
+          msg.style.backgroundColor = 'red'
+
+        }
+        else if (velocidade < 80) {
+            msg.innerHTML = `Sua Velocidade foi de ${velocidade} Km/h, você não foi multado`
+            msg.style.backgroundColor = 'green'
+        }
+    
+        }
+
+</script>
+</html>
