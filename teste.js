@@ -1,7 +1,7 @@
-const idademinima = 18;
-const idadecliente = 19;
-
-resultado = idadecliente > idademinima ? 'Cervaja' : 'Suco';
-
-console.log(`Olá, O seu produto é o ${resultado}`)
+function clicou(){
+    nome = document.getElementById('nome').value
+    telefone = document.getElementById('telefone').value
+    resultado = document.getElementById('result')
+    resultado.innerText = `Olá ${nome}, seu telefone é: ${telefone}`
+}
 
