@@ -5,3 +5,5 @@ function clicou(){
     resultado.innerText = `Olá ${nome}, seu telefone é: ${telefone}`
 }
 
+
+
