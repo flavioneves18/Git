@@ -2,6 +2,7 @@ body {
 
     background: rgba(136, 136, 211, 0.925);
     font: normal 15pt Arial;
+   
 
 }
 
@@ -69,3 +70,39 @@ footer {
     background-color: green;
     color: aliceblue;
  }
+
+ .linha {
+    display: flex;
+    background-color: black;
+    color: azure;  
+       
+}
+
+.coluna:hover {
+background-color: darkgreen;
+}
+
+.coluna:active {
+    background-color: rgb(19, 71, 243);
+    }
+
+.coluna {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#home {
+    background-color: rgb(128, 0, 100);
+}
+
+#home:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#home:active{
+    background-color: blue;
+    color: aliceblue;
+}
