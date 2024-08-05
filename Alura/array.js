@@ -31,5 +31,16 @@ function exibeNomeENota(aluno){
 
 exibeNomeENota("Aline");
 
+const notas = [7, 7, 8, 9];
+const novasNotas = [...notas, 10]; //cloca o array de cima e adciona valor na cópia
+
+ELIMINAR OS DUPLICADO:
+
+const nomes = ["Ana", "Clara", "Maria", "Maria", "João", "João", "João"];
+
+const nomesAtualizados = [...new Set(nomes)];
+
+console.log(nomesAtualizados);
+
 
 
