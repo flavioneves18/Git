@@ -14,8 +14,6 @@ livros.sort((a, b) => {
     return 0;
 });
 
-
-
 let cont=0;
 while (cont < livros.length) {
     console.log(livros[cont].titulo)
