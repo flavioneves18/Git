@@ -9,7 +9,7 @@
     width: 100%;
     min-height: 100vh;
     padding: 10px;
-    background: linear-gradient(135deg,#256dda,#4e085f);
+    background: linear-gradient(135deg,#153677,#4e085f);
 }
 
 .todo-app {
@@ -70,6 +70,7 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative;
+    overflow-x: hidden;
 } 
 
 ul li::before {
@@ -102,12 +103,13 @@ ul li span {
     width: 40px;
     height: 40px;
     font-size: 22px;
-    color: #555;
+    color: #111010f3;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
 }
 
 ul li span:hover {
-    background: #edeef0;
+    background: #000205dc;
 }
+    
